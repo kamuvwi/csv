@@ -14,8 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\City\Cities.csproj" />
-    <ProjectReference Include="..\csv\Csv.csproj" />
+    <ProjectReference Include="..\CSVWrite\CSVWrite.csproj" />
   </ItemGroup>
 
 </Project>

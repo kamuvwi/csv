@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csv", "csv\csv.csproj", "{2251A718-0A73-4090-B9C8-097B8C636871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csv", "csv\Csv.csproj", "{2251A718-0A73-4090-B9C8-097B8C636871}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csvfiles", "csvfiles", "{B0085AEA-6080-4BA0-B469-ADCAA72E638D}"
 	ProjectSection(SolutionItems) = preProject
-		test.csv = test.csv
+		filetest.csv = filetest.csv
 		..\..\..\..\..\csvfiles\worldcities.csv = ..\..\..\..\..\csvfiles\worldcities.csv
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csvTests", "csvTests\csvTests.csproj", "{7D4ECEBF-1B1F-4B5B-B455-9E236476665E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cities", "City\Cities.csproj", "{DBD3FB53-7C34-4AC4-823E-01495F3EA52C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityOrm", "EntityOrm\EntityOrm.csproj", "{A521FEEC-0376-4E44-B3AB-2AD5C1A089B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVWrite", "CSVWrite\CSVWrite.csproj", "{0A18AF68-F8BE-44F1-A38B-82751FDE4C3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVWriteTests", "CSVWriteTests\CSVWriteTests.csproj", "{D1D11616-F921-404F-96D1-B3A756BC05AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +35,22 @@ Global
 		{7D4ECEBF-1B1F-4B5B-B455-9E236476665E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D4ECEBF-1B1F-4B5B-B455-9E236476665E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D4ECEBF-1B1F-4B5B-B455-9E236476665E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD3FB53-7C34-4AC4-823E-01495F3EA52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD3FB53-7C34-4AC4-823E-01495F3EA52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD3FB53-7C34-4AC4-823E-01495F3EA52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD3FB53-7C34-4AC4-823E-01495F3EA52C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A521FEEC-0376-4E44-B3AB-2AD5C1A089B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A521FEEC-0376-4E44-B3AB-2AD5C1A089B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A521FEEC-0376-4E44-B3AB-2AD5C1A089B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A521FEEC-0376-4E44-B3AB-2AD5C1A089B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A18AF68-F8BE-44F1-A38B-82751FDE4C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A18AF68-F8BE-44F1-A38B-82751FDE4C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A18AF68-F8BE-44F1-A38B-82751FDE4C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A18AF68-F8BE-44F1-A38B-82751FDE4C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D11616-F921-404F-96D1-B3A756BC05AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D11616-F921-404F-96D1-B3A756BC05AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D11616-F921-404F-96D1-B3A756BC05AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D11616-F921-404F-96D1-B3A756BC05AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
